@@ -5,7 +5,7 @@ import { getAuth } from "firebase/auth";
 
 // Usa variables de entorno con fallbacks a tus valores actuales
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSy...tu_api_key",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDbRe11Film814hormq14FCEcPJsVPmY68",
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "darmax-fe29a.firebaseapp.com",
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "darmax-fe29a",
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "darmax-fe29a.appspot.com", // ← corregido
